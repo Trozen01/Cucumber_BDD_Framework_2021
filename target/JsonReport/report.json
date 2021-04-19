@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-13T18:59:19.482Z",
+        "line": 10,
+        "name": "Login with different combination",
+        "description": "",
+        "id": "login-feature;login-with-different-combination;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on application login page",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_should_be_on_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Jitu\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jitu\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.user_should_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should press login button.",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_should_press_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-13T18:59:19.882Z",
+        "line": 11,
+        "name": "Login with different combination",
+        "description": "",
+        "id": "login-feature;login-with-different-combination;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on application login page",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_should_be_on_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Jituyone\" and \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jituyone\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.user_should_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should press login button.",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_should_press_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/Login.feature",
+    "tags": []
+  }
+]

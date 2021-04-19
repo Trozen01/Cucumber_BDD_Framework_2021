@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.905">
+<testcase classname="Login Feature" name="Login with different combination" time="0.347">
+<system-out><![CDATA[Given User should be on application login page..............................passed
+Then User should enter "Jitu" and "5".......................................passed
+Then User should press login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login with different combination 2" time="0.008">
+<system-out><![CDATA[Given User should be on application login page..............................passed
+Then User should enter "Jituyone" and "7"...................................passed
+Then User should press login button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
