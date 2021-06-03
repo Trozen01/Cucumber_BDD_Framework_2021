@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin={"pretty","html:target/HtmlReport/report.html",
 				"junit:target/JunitReport/report.xml",
                 "json:target/JsonReport/report.json",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"   // it generate extend html report.
                 
 }
 		)
