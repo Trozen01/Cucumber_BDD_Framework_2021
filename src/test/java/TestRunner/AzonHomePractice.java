@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 		features="C:/Jitu/Work/SoftwareTesting/Practical/Cucumber_BDD_Framework_2021/src/test/resources/AppFeatures/AzonHoePractice.feature",
 		glue="StepDefinition",
 		monochrome=true,
-		plugin={"pretty","html:target/HtmlReport/report.html",
+		plugin={"pretty",
+				"html:target/HtmlReport/report.html",
                 "junit:target/JunitReport/report.xml",
                 "json:target/JsonReport/report.json"
 }
@@ -18,5 +19,4 @@ import io.cucumber.junit.CucumberOptions;
 
 
 public class AzonHomePractice {
-
 }
